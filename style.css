@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+:root {
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--VerydarkbluemainBG: hsl(217, 54%, 11%);
+--verydarkblueforshadow: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Family: 'Outfit', sans-serif;
+}
+body {
+    background-color: var(--VerydarkbluemainBG);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: var(--Family);
+}
+.card {
+    width: 290px;
+    height: 520px;
+    background-color: var(--verydarkblueforshadow);
+    border-radius: 15px;
+}
+.card img {
+    margin: 20px 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+.card #our {
+    color: var(--Softblue);
+    margin: 0 18px;
+}
+.card h3 {
+    color: var(--White);
+    margin: 0 20px 22px;
+}
+.pd {
+    display: flex;
+    justify-content: space-between;
+}
+.pd .left {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.right {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.pd .right img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.right p {
+    font-size: 15px;
+    margin: 0 18px 0 5px;
+}
+.pd p {
+    color: var(--White);
+}
+.card #price {
+    font-weight: 600;
+    color: var(--Cyan);
+    font-size: 14px;
+    margin: 0;
+}
+.pd #eth {
+    width: 15px;
+    height: 20px;
+    margin: 15px 5px 15px 20px;
+}
+
+.line {
+    width: 250px;
+    height: 1px;
+    background-color: var(--line);
+    margin: 10px 20px 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    color: var(--Softblue);
+}
+.footer img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+.footer span {
+    color: var(--White);
+}
+.attribution {
+    color: wheat;
+    margin: 5px auto;
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--Cyan);
+}
